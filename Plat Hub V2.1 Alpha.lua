@@ -30,16 +30,27 @@ end)
 -- Shindo
 
 local Shindo = Window:NewTab("Shindo")
-local ShindoSection = Shindo:NewSection("Shindo Hubs")
+local ShindoSection = Shindo:NewSection("Autofarm")
 
 ShindoSection:NewButton("Vg Hub", "Autofarm etc.", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
 end)
 
+ShindoSection:NewButton("Premier X", "Autofarm etc.", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/SxnwDev/Premier/main/Free-Premier.lua", true))()
+end)
+
+ShindoSection:NewButton("Premier V3", "INF RC etc.", function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/SxnwDev/Premier-V3/main/script.lua", true))()
+end)
+
+
+local Shindo2 = Window:NewTab("Shindo Hubs")
+local Shindo2Section = Shindo2:NewSection("Shindo Life Hubs")
+
 ShindoSection:NewButton("Vellerius Hub", "https://discord.gg/gzCtNbBCbs thats for the key.", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Corrupt2625/Revamps/main/SpyHub.lua"))()
 end)
-
 
 ShindoSection:NewButton("Lazium Hub", "they dont care if u get banned!", function()
     loadstring(game:HttpGet"https://raw.githubusercontent.com/CheapeeWastaken/Lazium/main/TheMain")()
@@ -50,15 +61,6 @@ ShindoSection:NewButton("Nuke Hub", "Multi Game Hub", function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/NukeVsCity/TheALLHACKLoader/main/NukeLoader"))()
 end)
 
-ShindoSection:NewLabel("Autofarms etc.")
-
-ShindoSection:NewButton("Premier X", "Autofarm etc.", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/SxnwDev/Premier/main/Free-Premier.lua", true))()
-end)
-
-ShindoSection:NewButton("Premier V3", "INF RC etc.", function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/SxnwDev/Premier-V3/main/script.lua", true))()
-end)
 
 if game.PlaceId == 537413528 then
 
@@ -264,12 +266,20 @@ elseif game.PlaceId == 6284583030 then
 		loadstring(game:HttpGet'https://raw.githubusercontent.com/RunDTM/ZeeroxHub/main/Loader.lua')()
 	end)
 
+
+
 	local PSX2 = Window:NewTab("PSX Hubs")
 	local PSX2Section = PSX2:NewSection("PSX Hubs")
 
 	PSX2Section:NewButton("Lazium Hub", "Op Hub, Keyrequired", function()
-		print("hi")
+		loadstring(game:HttpGet"https://raw.githubusercontent.com/CheapeeWastaken/Lazium/main/TheMain")()
+	end)
+
+	PSX2Section:NewButton("Nuke Hub", "Op, key needed", function()
+		_G.key = "novembr" --the key is between the two " "
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/NukeVsCity/TheALLHACKLoader/main/NukeLoader"))()
 	end)
 
 end
+
 
