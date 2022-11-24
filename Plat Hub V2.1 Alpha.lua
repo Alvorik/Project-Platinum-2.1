@@ -214,4 +214,48 @@ elseif game.PlaceId == 7560156054 then
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ExtremeAntonis/KeySystemUI/main/KeySystemUI-Obfuscated.lua"))()
     end)
 
+elseif game.PlaceId == 6516141723 then
+	local DOORS = Window:NewTab("Doors")
+	local DOORSSection = DOORS:NewSection("Auto-Stuff")
+
+	DOORSSection:NewLabel("Execute IN GAME not lobby, dont work in game yet.")
+
+	DOORSSection:NewButton("Vinixius", "OP Script", function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Doors/Script.lua"))()
+	end)
+
+	DOORSSection:NewButton("Vinixius", "OP Script", function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Alvorik/Doors-script/main/doors.lua"))()
+	end)
+
+	DoorsSection:NewButton("Reddy", "Recommend Vinixius", function()
+		loadstring(game:HttpGet('https://reddyhub.xyz/loader.html'))()
+	end)
+
+	DOORSSection:NewLabel("Spawner, Becarefull")
+
+	DoorsSection:NewButton("Doors Entity", "Doors Entitiy Spawner, may break", function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/plamen6789/DoorsEntitySummonerGUI/main/EntityGUI'))()
+	end)
+
+elseif game.PlaceId == 8908228901 then
+	local SB2 = Window:NewTab("Shark Bite 2")
+	local SB2Section = SB2:NewSection("Autofarm")
+
+	SB2Section:NewButton("Shark Bite OP", "Op Script not patched", function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/SleeksScripts/Sharkbite-2-script/main/Script'))()
+	end)
+
+	SB2Section:NewLabel("More comming soon")
+
+elseif game.PlaceId == 734159876 then
+	local SB1 = Window:NewTab("Shark Bite 1")
+	local SB1Section = SB1:NewSection("Autofarm")
+
+	SB1Section:NewButton("Sharkbite 1 OP", function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/LOOF-sys/Roblox-Shit/main/SharkBite.lua'))()
+	end)
+
 end
+
+
