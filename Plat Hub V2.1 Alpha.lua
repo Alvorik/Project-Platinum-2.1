@@ -255,6 +255,21 @@ elseif game.PlaceId == 734159876 then
 	SB1Section:NewButton("Sharkbite 1 OP", function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/LOOF-sys/Roblox-Shit/main/SharkBite.lua'))()
 	end)
-	
+
+elseif game.PlaceId == 6284583030 then
+	local PSX1 = Window:NewTab("Pet Sim X")
+	local PSX1Section = PSX1:NewSection("Autofarm")
+
+	PSX1Section:NewButton("Zeerox Hub", "Op Script", function()
+		loadstring(game:HttpGet'https://raw.githubusercontent.com/RunDTM/ZeeroxHub/main/Loader.lua')()
+	end)
+
+	local PSX2 = Window:NewTab("PSX Hubs")
+	local PSX2Section = PSX2:NewSection("PSX Hubs")
+
+	PSX2Section:NewButton("Lazium Hub", "Op Hub, Keyrequired", function()
+	print("hi")
+	end)
+
 end
 
