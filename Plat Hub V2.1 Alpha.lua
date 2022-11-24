@@ -268,7 +268,7 @@ elseif game.PlaceId == 6284583030 then
 	local PSX2Section = PSX2:NewSection("PSX Hubs")
 
 	PSX2Section:NewButton("Lazium Hub", "Op Hub, Keyrequired", function()
-	print("hi")
+		print("hi")
 	end)
 
 end
