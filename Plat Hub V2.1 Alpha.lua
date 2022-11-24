@@ -44,9 +44,7 @@ ShindoSection:NewButton("Premier V3", "INF RC etc.", function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/SxnwDev/Premier-V3/main/script.lua", true))()
 end)
 
-
-local Shindo2 = Window:NewTab("Shindo Hubs")
-local Shindo2Section = Shindo2:NewSection("Shindo Life Hubs")
+ShindoSection:NewLabel("Shindo Hubs")
 
 ShindoSection:NewButton("Vellerius Hub", "https://discord.gg/gzCtNbBCbs thats for the key.", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Corrupt2625/Revamps/main/SpyHub.lua"))()
@@ -57,7 +55,7 @@ ShindoSection:NewButton("Lazium Hub", "they dont care if u get banned!", functio
 end)
 
 ShindoSection:NewButton("Nuke Hub", "Multi Game Hub", function()
-	_G.key = "novembr" --the key is between the two " "
+	_G.key = "ihatenovembr" --the key is between the two " "
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/NukeVsCity/TheALLHACKLoader/main/NukeLoader"))()
 end)
 
@@ -276,7 +274,7 @@ elseif game.PlaceId == 6284583030 then
 	end)
 
 	PSX2Section:NewButton("Nuke Hub", "Op, key needed", function()
-		_G.key = "novembr" --the key is between the two " "
+		_G.key = "ihatenovembr" --the key is between the two " "
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/NukeVsCity/TheALLHACKLoader/main/NukeLoader"))()
 	end)
 
