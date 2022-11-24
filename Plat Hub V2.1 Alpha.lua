@@ -73,7 +73,7 @@ if game.PlaceId == 537413528 then
 		loadstring(game:HttpGet(('https://pastebin.com/raw/T6Tqqqvj'), true))()
 	end)
     
-    BLBSection:NewButton("")
+    BLBSection:NewLabel("AutoFarm")
 
 	BLBSection:NewButton("Vynixius", "sub to him :)", function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Build%20A%20Boat%20For%20Treasure/Script.lua"))()
@@ -255,7 +255,6 @@ elseif game.PlaceId == 734159876 then
 	SB1Section:NewButton("Sharkbite 1 OP", function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/LOOF-sys/Roblox-Shit/main/SharkBite.lua'))()
 	end)
-
+	
 end
-
 
