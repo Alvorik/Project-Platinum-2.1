@@ -232,6 +232,10 @@ elseif game.PlaceId == 6516141723 then
 		loadstring(game:HttpGet('https://reddyhub.xyz/loader.html'))()
 	end)
 
+	DoorsSection:NewButton("Doors Script", "W script", function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/OminousVibes-Exploit/Scripts/main/doors/main.lua"))()
+	end)
+
 	DOORSSection:NewLabel("Spawner, Becarefull")
 
 	DoorsSection:NewButton("Doors Entity", "Doors Entitiy Spawner, may break", function()
@@ -278,6 +282,20 @@ elseif game.PlaceId == 6284583030 then
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/NukeVsCity/TheALLHACKLoader/main/NukeLoader"))()
 	end)
 
+elseif game.PlaceId == 286090429 then
+	local Arsenal = Window:NewTab("Arsenal")
+	local ArsenalSection = Arsenal:NewSection("Kill Aura, Etc.")
+
+	ArsenalSection:NewButton("Stormware", "Aimbot, Inf Ammo, Etc. Needs synapse", function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Storm99999/whitelistkeys/main/SCRIPT_VIP.lua"))()
+	end)
+
+	ArsenalSection:NewButton("God Mode", "You can die once, but after that nah", function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/CF-Trail/random/main/ArsenalGodmode.lua"))()
+	end)
+
+
 end
+
 
 
