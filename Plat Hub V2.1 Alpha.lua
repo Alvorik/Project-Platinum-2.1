@@ -46,7 +46,7 @@ ShindoSection:NewButton("Premier X", "Autofarm etc.", function()
 end)
 
 ShindoSection:NewButton("Premier V3", "INF RC etc.", function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/SxnwDev/Premier-V3/main/script.lua", true))()
+	loadstring(game:HttpGet('https://scripts.luawl.com/13551/Premier.lua'))()
 end)
 
 ShindoSection:NewLabel("Shindo Hubs")
