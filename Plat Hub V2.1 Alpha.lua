@@ -26,7 +26,7 @@ MainSection:NewButton("RTX", "RTX dont use on a potato pc", function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/RTX%20Gui%20Hub%20Obfuscator'))()
 end)
 
-MainSection:NewLabel("Made By Alvorik/エド2kk#5160")
+MainSection:NewLabel("Made By Alvorik/エド2kk#5160, and Alex")
 
 MainSection:NewButton("Copy Discord Link", "Copy Alvorik's World's Discord Server", function()
 	setclipboard("https://discord.gg/ykHhHkK7YF")
