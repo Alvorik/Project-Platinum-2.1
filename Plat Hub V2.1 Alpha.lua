@@ -60,7 +60,7 @@ ShindoSection:NewButton("Lazium Hub", "they dont care if u get banned!", functio
 end)
 
 ShindoSection:NewButton("Nuke Hub", "Multi Game Hub", function()
-	_G.key = "ihatenovembr" --the key is between the two " "
+	_G.key = "DECEMBRRR" --the key is between the two " "
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/NukeVsCity/TheALLHACKLoader/main/NukeLoader"))()
 end)
 
@@ -199,8 +199,8 @@ elseif game.PlaceId == 142823291 then
     MM2Section:NewLabel("MM2 Hubs")
 
     MM2Section:NewButton("Nuke Hub", "Multi Game Hub", function()
-        _G.key = "novembr" --the key is between the two " "
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/NukeVsCity/TheALLHACKLoader/main/NukeLoader"))()
+	_G.key = "DECEMBRRR" --the key is between the two " "
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/NukeVsCity/TheALLHACKLoader/main/NukeLoader"))()
     end)
 
 	MM2Section:NewLabel("Key Required")
@@ -311,7 +311,7 @@ elseif game.PlaceId == 6284583030 then
 	end)
 
 	PSX2Section:NewButton("Nuke Hub", "Op, key needed", function()
-		_G.key = "ihatenovembr" --the key is between the two " "
+		_G.key = "DECEMBRRR" --the key is between the two " "
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/NukeVsCity/TheALLHACKLoader/main/NukeLoader"))()
 	end)
 
@@ -335,7 +335,7 @@ elseif game.PlaceId == 286090429 then
 	end)
 
 	ArsenalSection:NewButton("Nuke Hub", "Catching up to Vg hub.", function()
-		_G.key = "ihatenovembr" --the key is between the two " "
+		_G.key = "DECEMBRRR" --the key is between the two " "
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/NukeVsCity/TheALLHACKLoader/main/NukeLoader"))()
 	end)
 
