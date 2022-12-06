@@ -1,9 +1,10 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Platinum Hub", "GrapeTheme")
+local Window = Library.CreateLib("Project Hub", "GrapeTheme")
 
 -- Main Section
 local Main = Window:NewTab("Main")
 local MainSection = Main:NewSection("Main")
+
 
 MainSection:NewButton("Infinite Yield", "FE Admin Commands", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
@@ -19,6 +20,10 @@ end)
 
 MainSection:NewButton("Admin Commands #2", "i have no idea what the name of the script is", function()
     loadstring(game:HttpGet('\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\79\109\110\105\112\111\116\101\110\99\101\68\101\118\101\108\111\112\101\114\47\78\117\109\98\101\114\47\109\97\105\110\47\49\46\108\117\97'))()
+end)
+
+MainSection:NewButton("RTX", "RTX dont use on a potato pc", function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/RTX%20Gui%20Hub%20Obfuscator'))()
 end)
 
 MainSection:NewLabel("Made By Alvorik/エド2kk#5160")
@@ -83,6 +88,10 @@ if game.PlaceId == 537413528 then
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/WinterDinder/silver-couscous/main/masage.lua"))()
 	end)
 
+	BLBSection:NewButton("BAB Autofarm", "OP", function()
+		local a,b,c = "juywvm","main","babft";loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/%s/-Roblox-Projects-/%s/%s"):format(a, b, c)))() 
+	end)
+
 
 elseif game.PlaceId == 7449423635 then
 	
@@ -108,6 +117,12 @@ elseif game.PlaceId == 7449423635 then
 	BloxSection:NewButton("Mukuro Hub", "prob spelt it wrong", function()
     	loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()
 	end)
+
+	BloxSection:NewButton("Mango Hub", "OP", function()
+		getgenv().WaterMark = true
+		loadstring(game:HttpGet("https://gitlab.com/L1ZOT/mango-hub/-/raw/main/Mango-Bloxf-Fruits-Beta"))()
+	end)
+	
 	-- BF SECOND SEA
 elseif game.PlaceId == 4442272183 then
     local Blox = Window:NewTab("Blox Fruits ")
@@ -133,6 +148,11 @@ elseif game.PlaceId == 4442272183 then
         loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()
     end)
 
+	BloxSection:NewButton("Mango Hub", "OP", function()
+		getgenv().WaterMark = true
+		loadstring(game:HttpGet("https://gitlab.com/L1ZOT/mango-hub/-/raw/main/Mango-Bloxf-Fruits-Beta"))()
+	end)
+
 	-- BF FIRST SEA
 elseif game.PlaceId == 2753915549 then
 	local Blox = Window:NewTab("Blox Fruits ")
@@ -157,6 +177,12 @@ elseif game.PlaceId == 2753915549 then
 	BloxSection:NewButton("Mukuro Hub", "prob spelt it wrong", function()
     	loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()
 	end)
+	
+	BloxSection:NewButton("Mango Hub", "OP", function()
+		getgenv().WaterMark = true
+		loadstring(game:HttpGet("https://gitlab.com/L1ZOT/mango-hub/-/raw/main/Mango-Bloxf-Fruits-Beta"))()
+	end)
+	
 
 elseif game.PlaceId == 142823291 then
 	local MM2 = Window:NewTab("Murder Mystery")
@@ -164,6 +190,10 @@ elseif game.PlaceId == 142823291 then
     
     MM2Section:NewButton("Eclipse", "OP MM2 Script", function()
 		getgenv().mainKey = "nil" local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,tostring,"https://api.eclipsehub.xyz/auth"c(a and b,"Executor not Supported")a(b({Url=e.."\?\107e\121\61"..d(mainKey),Headers={["User-Agent"]="Eclipse"}}).Body)()
+	end)
+
+	MM2Section:NewButton("Advanced-Ware", "Autofarm, dont use in public", function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/AdvancedWare/VScript/main/Script", true))()
 	end)
 
     MM2Section:NewLabel("MM2 Hubs")
@@ -268,6 +298,9 @@ elseif game.PlaceId == 6284583030 then
 		loadstring(game:HttpGet'https://raw.githubusercontent.com/RunDTM/ZeeroxHub/main/Loader.lua')()
 	end)
 
+	PSX1Section:NewButton("Pasta V2","OP", function()
+		loadstring(game:HttpGet("https://rawscripts.net/raw/CATS-or-Pet-Simulator-X!-Pasta-v2-6841"))()
+	end)
 
 
 	local PSX2 = Window:NewTab("PSX Hubs")
@@ -282,6 +315,7 @@ elseif game.PlaceId == 6284583030 then
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/NukeVsCity/TheALLHACKLoader/main/NukeLoader"))()
 	end)
 
+
 elseif game.PlaceId == 286090429 then
 	local Arsenal = Window:NewTab("Arsenal")
 	local ArsenalSection = Arsenal:NewSection("Kill Aura, Etc.")
@@ -294,8 +328,148 @@ elseif game.PlaceId == 286090429 then
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/CF-Trail/random/main/ArsenalGodmode.lua"))()
 	end)
 
+	ArsenalSection:NewLabel("Arsenal Hubs")
+
+	ArsenalSection:NewButton("Vg Hub", "OP multigame scripthub", function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+	end)
+
+	ArsenalSection:NewButton("Nuke Hub", "Catching up to Vg hub.", function()
+		_G.key = "ihatenovembr" --the key is between the two " "
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/NukeVsCity/TheALLHACKLoader/main/NukeLoader"))()
+	end)
+
+elseif game.PlaceId == 5956785391 then
+	local Slayer = Window:NewTab("Project Slayers")
+	local SlayerSection = Slayer:NewSection("Autofarm Etc.")
+
+	SlayerSection:NewButton("PS OP 1", "OP", function()
+		loadstring(game:HttpGet(('https://moonrise.gay/Whitelist.lua'),true))()
+	end)
+
+	SlayerSection:NewButton("Project 5", "Op", function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/slayers099/main/project55"))()
+	end)
+
+	SlayerSection:NewButton("Sensitive Lua", "OP", function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaQLeak/Scripts/main/Project-slayers. lua"))()
+	end)
+	
+	SlayerSection:NewLabel("Project Slayer Hubs")
+
+	SlayerSection:NewButton("Nuke Hub", "Op hub", function()
+		_G.key = "ihatenovembr" --the key is between the two " "
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/NukeVsCity/TheALLHACKLoader/main/NukeLoader"))()
+	end)
+
+elseif game.PlaceId == 6152116144 then
+	local Slayer = Window:NewTab("Project Slayers")
+	local SlayerSection = Slayer:NewSection("Autofarm Etc.")
+
+	SlayerSection:NewButton("PS OP 1", "OP", function()
+		loadstring(game:HttpGet(('https://moonrise.gay/Whitelist.lua'),true))()
+	end)
+
+	SlayerSection:NewButton("Project 5", "Op", function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/slayers099/main/project55"))()
+	end)
+
+	SlayerSection:NewButton("Sensitive Lua", "OP", function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaQLeak/Scripts/main/Project-slayers. lua"))()
+	end)
+
+	SlayerSection:NewLabel("Project Slayer Hubs")
+
+	SlayerSection:NewButton("Nuke Hub", "Op hub", function()
+		_G.key = "ihatenovembr" --the key is between the two " "
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/NukeVsCity/TheALLHACKLoader/main/NukeLoader"))()
+	end)
+
+
+elseif game.PlaceId == 4282985734 then
+	local Combat = Window:NewTab("Combat Warriors")
+	local CombatSection = Combat:NewSection("Aimbot Etc.")
+
+	CombatSection:NewButton("Nova Hub", "Aimbot Etc.", function()
+		local load_,l,g = "https://raw.githubusercontent.com/SussyImposterRed/Scripts/main/NOVA_HUB_SOURCE",function(a)return loadstring(a)()end,game;local s,r = pcall(g.HttpGet,g,load_)pcall(l,r)
+	end)
+
+	CombatSection:NewButton("Unfair", "Unfair Hub", function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/rblxscriptsnet/unfair/main/rblxhub.lua'),true))()
+	end)
+
+	CombatSection:NewLabel("Combat Warriors Script Hubs")
+	
+	CombatSection:NewButton("Nuke Hub", "OP", function()
+		_G.key = "ihatenovembr" --the key is between the two " "
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/NukeVsCity/TheALLHACKLoader/main/NukeLoader"))()
+	end)
+
+elseif game.PlaceId == 9551640993 then
+	local MiningSim2 = Window:NewTab("Mining Sim 2")
+	local MiningSimSection = MiningSim2:NewSection("Autofarm Etc.")
+
+	MiningSimSection:NewLabel("Mining Sim 2 Hubs")
+
+	MiningSimSection:NewButton("Nuke Hub", "OP", function()
+		_G.key = "ihatenovembr" --the key is between the two " "
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/NukeVsCity/TheALLHACKLoader/main/NukeLoader"))()
+	end)
+
+	MiningSimSection:NewButton("Vg Hub", "Orange Hub", function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+	end)
+
+elseif game.PlaceId == 6875469709 then
+	local Strongest = Window:NewTab("Strongest Fighting Sim")
+	local StrongestSection = Strongest:NewSection("Autofarm")
+
+	StrongestSection:NewButton("Destiny Hub", "i didnt know this existed", function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/itsnoctural/Destiny/main/loader.lua",true))()
+	end)
+	
+	StrongestSection:NewLabel("Chance of being banned be carefull")
+	
+	
+	StrongestSection:NewButton("CHANCE OF BEING BANNED, USE IF UR DESPERATE", "ONLY USE IF UR DESPERATE, MIGHT GET BANNED", function()
+		getgenv().Toggle = true
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/XTheMasterX/Scripts/Main/SPS'),true))()
+	end)
+
+
+elseif game.PlaceId == 920587237 then
+	local Adopt = Window:NewTab("Adopt Me")
+	local AdoptSection = Adopt:NewSection("Autofarm Etc.")
+
+	AdoptSection:NewButton("Ginger Auto", "Autofarm GingerBreads", function()
+				getgenv().Start = true
+			local ReplicatedStorage = game:GetService("ReplicatedStorage")
+			local GingerbreadMarkers = ReplicatedStorage.Resources.IceSkating.GingerbreadMarkers
+
+			for i, v in pairs(debug.getupvalue(require(ReplicatedStorage.Fsys).load("RouterClient").init, 4)) do
+				v.Name = i
+			end
+			spawn(function()
+   				while wait() and Start do
+       				pcall(function()
+           				for i,v in pairs(GingerbreadMarkers:GetChildren()) do
+               				if v:IsA("BasePart") then
+                   				ReplicatedStorage.API:FindFirstChild("WinterEventAPI/PickUpGingerbread"):InvokeServer(v.Name)
+               			end
+           				end
+           				ReplicatedStorage.API:FindFirstChild("WinterEventAPI/RedeemPendingGingerbread"):FireServer()
+           				ReplicatedStorage.API:FindFirstChild("WinterEventAPI/SubmitIceSkatingTime"):FireServer(0)
+       				end)
+   				end
+			end)
+	end)
+	
+elseif game.PlaceId == 9285238704 then
+	local Race = Window:NewTab("Race Clicker")
+	local RaceSection = Race:NewSection("Autofarm")
+
+	RaceSection:NewButton("Auto-Wins", "Auto Get wins, OP", function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/boomcacas/androminome/main/hub"))()
+	end)
 
 end
-
-
-
